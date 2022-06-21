@@ -5,7 +5,7 @@ interface iTask {
     isCompleted: boolean;
 }
 
-export const tasks: Array<iTask> = [
+export const initialTasks: Array<iTask> = [
     { id: 1, title: 'Hacer algo', responsible: 'Pepe', isCompleted: false },
     {
         id: 2,
