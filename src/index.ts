@@ -11,6 +11,8 @@ const app = express();
 app.use(express.json());
 app.use(morgan('dev'));
 
+// Endpoint home (/)
+
 app.get('/', async (req, resp) => {
     req;
     const dataFileContent = await fs.readFile(dataFilePath, {

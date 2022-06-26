@@ -2,8 +2,8 @@ http://localhost:3400
 
 ###
 
-POST http://localhost:3400
-Content-Type: 'application/json'
+POST http://localhost:340
+content-type: 'application/json'
 
 {
     "text": "<h1>Hola Mundo desde un fichero usando <strong>Express</strong></h1>"
